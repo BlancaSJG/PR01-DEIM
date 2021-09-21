@@ -2,32 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio2a : MonoBehaviour
+public class Ejercicio2d : MonoBehaviour
 {
 
-    int n = 0;
 
+
+    int x = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        print("Esto es un contador");
+        int random = Random.Range(1, 30);
+
+
+        while(x <= random)
+        {
+            print(x);
+            x++;
+        }
+
         
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        n++;
-        if(n<15){
-
-            print(n);
-        }
-        else if(n==15)
-        {
-            print("fin");
-        }
-
+        
     }
 }
