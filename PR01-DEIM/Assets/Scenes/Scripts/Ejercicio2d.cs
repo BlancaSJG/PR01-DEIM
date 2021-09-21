@@ -5,20 +5,21 @@ using UnityEngine;
 public class Ejercicio2d : MonoBehaviour
 {
 
+    int random;
 
-
-    int x = 0;
+    [SerializeField] int x = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        int random = Random.Range(1, 30);
+        random = Random.Range(1, 30);
 
 
-        while(x <= random)
+        while(x != random)
         {
-            print(x);
-            x++;
+            random = Random.Range(1, 30);
+            print(random);
+            
         }
 
         
