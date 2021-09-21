@@ -502,6 +502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d96caa7dd562944fa2b91c659e958f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 15
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +600,7 @@ GameObject:
   - component: {fileID: 1670328992}
   - component: {fileID: 1670328991}
   - component: {fileID: 1670328996}
+  - component: {fileID: 1670328997}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -702,10 +704,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670328990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f06ac6ecb851234abc12e36464e2384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   x: 5
   y: 5
+--- !u!114 &1670328997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670328990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5433f91c3b23a744f8f0d50500bc5211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 100
+  y: 20
+  multiplicar: 1
+  dividir: 1
+  sumar: 1
+  restar: 1
