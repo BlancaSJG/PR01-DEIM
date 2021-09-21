@@ -601,6 +601,8 @@ GameObject:
   - component: {fileID: 1670328991}
   - component: {fileID: 1670328996}
   - component: {fileID: 1670328997}
+  - component: {fileID: 1670328998}
+  - component: {fileID: 1670328999}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -718,7 +720,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670328990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5433f91c3b23a744f8f0d50500bc5211, type: 3}
   m_Name: 
@@ -729,3 +731,27 @@ MonoBehaviour:
   dividir: 1
   sumar: 1
   restar: 1
+--- !u!114 &1670328998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670328990}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a82356903dba2ed44aeb4fde46bf0fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1670328999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670328990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f16439713fa274b8298ad712548c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
